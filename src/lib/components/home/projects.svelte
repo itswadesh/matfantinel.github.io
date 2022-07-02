@@ -15,7 +15,7 @@
 	<Section
 		align="top"
 		title="Projects"
-		description="I like to build some small projects when learning. Technologies are varied and so are their purposes. Most of them are open source!"
+		description="Following are some of the projects out of 800+. Technologies are varied and so are their purposes. Some of them are open source!"
 	>
 		<OneByOneGrid>
 			<ProjectsGrid>
@@ -131,8 +131,11 @@
 					</div>
 					<div slot="footer">
 						<div class="tags">
-							<Tag>Angular</Tag>
+							<Tag>Vue</Tag>
 							<Tag>PWA</Tag>
+							<Tag color="secondary">NodeJs</Tag>
+							<Tag color="secondary">MongoDB</Tag>
+							<Tag color="secondary">Flutter</Tag>
 						</div>
 					</div>
 				</Card>
@@ -141,25 +144,25 @@
 			<ThreeByThreeGrid>
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="moneta" alt="Moneta" />
+						<Image path="projects" filename="clicky" alt="clicky" />
 					</div>
 					<div slot="content">
 						<div class="title">
-							Moneta
+							Clicky
 							<div class="links">
-								<a
+								<!-- <a
 									class="text-secondary"
-									href="https://github.com/itswadesh/moneta"
+									href="https://clicky.pk"
 									target="_blank"
 									rel="noopener"
 									title="Open project on GitHub"
 								>
 									<Github />
-								</a>
+								</a> -->
 
 								<a
 									class="text-secondary"
-									href="https://appcenter.elementary.io/com.github.itswadesh.moneta/"
+									href="https://clicky.pk/"
 									target="_blank"
 									rel="noopener"
 									title="Open site"
@@ -169,29 +172,29 @@
 							</div>
 						</div>
 						<div class="text">
-							A desktop applet that displays currency rates and updates during the day. Built for
-							elementary OS.
+							Mobile app, website and admin panel for the fashion ecommerce venture from Amazon
+							named Clicky
 						</div>
 					</div>
 					<div slot="footer">
 						<div class="tags">
-							<Tag>Vala</Tag>
-							<Tag>GTK</Tag>
-							<Tag>Desktop</Tag>
-							<Tag color="secondary">Open Source</Tag>
+							<Tag>Vue</Tag>
+							<Tag>React Native</Tag>
+							<Tag color="secondary">MongoDB</Tag>
+							<Tag color="secondary">NodeJS</Tag>
 						</div>
 					</div>
 				</Card>
 
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="reminduck" alt="Reminduck" />
+						<Image path="projects" filename="lrnr" alt="Lrnr" />
 					</div>
 					<div slot="content">
 						<div class="title">
-							Reminduck
+							LrNr
 							<div class="links">
-								<a
+								<!-- <a
 									class="text-secondary"
 									href="https://github.com/itswadesh/reminduck"
 									target="_blank"
@@ -199,11 +202,11 @@
 									title="Open project on GitHub"
 								>
 									<Github />
-								</a>
+								</a> -->
 
 								<a
 									class="text-secondary"
-									href="https://appcenter.elementary.io/com.github.itswadesh.reminduck/"
+									href="https://lrnr.in/"
 									target="_blank"
 									rel="noopener"
 									title="Open site"
@@ -213,16 +216,183 @@
 							</div>
 						</div>
 						<div class="text">
-							A simple reminder app for elementary OS, and my first experience writing native
-							desktop apps.
+							The emerging ed-tech platform for school students growing very fast.
 						</div>
 					</div>
 					<div slot="footer">
 						<div class="tags">
-							<Tag>Vala</Tag>
-							<Tag>GTK</Tag>
-							<Tag>Desktop</Tag>
-							<Tag color="secondary">Open Source</Tag>
+							<Tag>Vue</Tag>
+							<Tag>Svelte</Tag>
+							<Tag color="secondary">Flutter</Tag>
+							<Tag color="secondary">Mongo</Tag>
+						</div>
+					</div>
+				</Card>
+				<Card>
+					<div slot="image">
+						<Image path="projects" filename="misiki" alt="Misiki" />
+					</div>
+					<div slot="content">
+						<div class="title">
+							Misiki
+							<div class="links">
+								<!-- <a
+									class="text-secondary"
+									href="https://github.com/itswadesh/reminduck"
+									target="_blank"
+									rel="noopener"
+									title="Open project on GitHub"
+								>
+									<Github />
+								</a> -->
+
+								<a
+									class="text-secondary"
+									href="https://misiki.io/"
+									target="_blank"
+									rel="noopener"
+									title="Open site"
+								>
+									<ExternalLinkIcon />
+								</a>
+							</div>
+						</div>
+						<div class="text">
+							Ecommerce SAAS built over enterpise grade technology that scales to infinity while
+							maintaining best speed and user experience
+						</div>
+					</div>
+					<div slot="footer">
+						<div class="tags">
+							<Tag>Vue</Tag>
+							<Tag>Node</Tag>
+							<Tag color="secondary">Flutter</Tag>
+							<Tag color="secondary">Mongo</Tag>
+						</div>
+					</div>
+				</Card>
+				<Card>
+					<div slot="image">
+						<Image path="projects" filename="atoz" alt="Atoz" />
+					</div>
+					<div slot="content">
+						<div class="title">
+							AtoZ
+							<div class="links">
+								<!-- <a
+									class="text-secondary"
+									href="https://github.com/itswadesh/reminduck"
+									target="_blank"
+									rel="noopener"
+									title="Open project on GitHub"
+								>
+									<Github />
+								</a> -->
+
+								<a
+									class="text-secondary"
+									href="https://atozzones.com/"
+									target="_blank"
+									rel="noopener"
+									title="Open site"
+								>
+									<ExternalLinkIcon />
+								</a>
+							</div>
+						</div>
+						<div class="text">
+							Yelp Clone + Super APP with services like Movie Ticket booking, Hotel booking, Flight
+							booking,
+						</div>
+					</div>
+					<div slot="footer">
+						<div class="tags">
+							<Tag>Sveltekit</Tag>
+							<Tag>Node</Tag>
+							<Tag color="secondary">Flutter</Tag>
+							<Tag color="secondary">Mongo</Tag>
+						</div>
+					</div>
+				</Card>
+				<Card>
+					<div slot="image">
+						<Image path="projects" filename="Frontendfun" alt="Frontendfun" />
+					</div>
+					<div slot="content">
+						<div class="title">
+							Frontendfun
+							<div class="links">
+								<!-- <a
+									class="text-secondary"
+									href="https://github.com/itswadesh/reminduck"
+									target="_blank"
+									rel="noopener"
+									title="Open project on GitHub"
+								>
+									<Github />
+								</a> -->
+
+								<a
+									class="text-secondary"
+									href="https://frontendfun.com/"
+									target="_blank"
+									rel="noopener"
+									title="Open site"
+								>
+									<ExternalLinkIcon />
+								</a>
+							</div>
+						</div>
+						<div class="text">
+							For fresher programmers to take reference from world's best open source projects.
+						</div>
+					</div>
+					<div slot="footer">
+						<div class="tags">
+							<Tag>Sveltekit</Tag>
+							<Tag>Node</Tag>
+							<Tag color="secondary">Automation</Tag>
+						</div>
+					</div>
+				</Card>
+				<Card>
+					<div slot="image">
+						<Image path="projects" filename="shopnx" alt="ShopNx" />
+					</div>
+					<div slot="content">
+						<div class="title">
+							ShopNx
+							<div class="links">
+								<!-- <a
+									class="text-secondary"
+									href="https://github.com/itswadesh/reminduck"
+									target="_blank"
+									rel="noopener"
+									title="Open project on GitHub"
+								>
+									<Github />
+								</a> -->
+
+								<a
+									class="text-secondary"
+									href="https://shopnx.in/"
+									target="_blank"
+									rel="noopener"
+									title="Open site"
+								>
+									<ExternalLinkIcon />
+								</a>
+							</div>
+						</div>
+						<div class="text">
+							Automation project for youtube influencers to manage their products and promote sales.
+						</div>
+					</div>
+					<div slot="footer">
+						<div class="tags">
+							<Tag>Sveltekit</Tag>
+							<Tag>Node</Tag>
+							<Tag color="secondary">Automation</Tag>
 						</div>
 					</div>
 				</Card>

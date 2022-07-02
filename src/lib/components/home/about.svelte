@@ -1,6 +1,6 @@
 <script>
 	import Avatar from '$lib/svg/avatar.svelte';
-  import Blob1 from '$lib/svg/blobs/blob1.svelte';
+	import Blob1 from '$lib/svg/blobs/blob1.svelte';
 	import Blob2 from '$lib/svg/blobs/blob2.svelte';
 	import Blob3 from '$lib/svg/blobs/blob3.svelte';
 	import SparklingHighlight from '../style/sparkling-highlight.svelte';
@@ -13,8 +13,9 @@
 			<SparklingHighlight>spark joy</SparklingHighlight>
 		</h2>
 		<p>
-			I believe software should be great for everyone — those who write it and those who use it —
-			and that bringing joy to problem-solving is the key to that.
+			15+ years of experience in web development. <br />
+			8+ years of experience in ecommerce development. <br />
+			6+ years of experience in software automation. <br />
 		</p>
 	</div>
 	<div class="avatar">
@@ -71,8 +72,8 @@
 				width: 80%;
 				height: 80%;
 				position: relative;
-        border-radius: 50%;
-        overflow: hidden;
+				border-radius: 50%;
+				overflow: hidden;
 			}
 
 			.blob {

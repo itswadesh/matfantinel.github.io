@@ -13,76 +13,22 @@
 
 	const entries = [
 		{
-			id: 'freelancer',
-			title: 'Freelancer',
-			jobTitle: 'Front-End Web Developer',
-			timeframe: '2021 ~ Now',
+			id: 'arialshop',
+			title: 'Arialshop',
+			jobTitle: 'Ecommerce',
+			timeframe: '2014 ~ 2018',
+			link:
+				'https://codecanyon.net/item/progressive-single-page-ecommerce-app-using-vuejs/20596887',
 			description:
-				"As an independent contractor, I've been able to build new innovative projects from scratch putting my development, planning, design and teamwork skills to the test.",
+				'Complete Ecommerce Platform built using the Javascript Fullstack. Just download and use with lifetime license.',
 			tags: [
 				{
 					color: 'primary',
 					text: 'Vue'
 				},
 				{
-					color: 'primary',
-					text: 'React'
-				},
-				{
-					color: 'primary',
-					text: 'Svelte'
-				}
-			]
-		},
-		{
-			id: 'logitix',
-			title: 'Logitix',
-			jobTitle: 'Software Engineer',
-			timeframe: '2019 ~ 2021',
-			description:
-				"Working on one of the biggest ticket brokerage management systems in the world, I've built new features, improved existing ones, and made huge boosts to performance.",
-			tags: [
-				{
-					color: 'primary',
-					text: 'Vue'
-				},
-				{
-					color: 'primary',
-					text: 'AngularJS'
-				},
-				{
 					color: 'secondary',
-					text: '.NET'
-				},
-				{
-					color: 'secondary',
-					text: 'SQL'
-				}
-			]
-		},
-		{
-			id: 'sige',
-			title: 'SIGE Cloud',
-			jobTitle: 'Software Developer',
-			timeframe: '2017 ~ 2019',
-			description:
-				'Built new mobile apps from scratch with Ionic, a simplified desktop ERP with Electron, and modernized the existing Web version by applying the Microfrontends approach.',
-			tags: [
-				{
-					color: 'primary',
-					text: 'Angular'
-				},
-				{
-					color: 'primary',
-					text: 'Ionic'
-				},
-				{
-					color: 'primary',
-					text: 'Electron'
-				},
-				{
-					color: 'secondary',
-					text: '.NET'
+					text: 'NodeJS'
 				},
 				{
 					color: 'secondary',
@@ -91,35 +37,89 @@
 			]
 		},
 		{
-			id: 'promob',
-			title: 'Promob',
-			jobTitle: 'Software Developer',
-			timeframe: '2014 ~ 2017',
+			id: 'vuefull',
+			title: 'Vuefull',
+			jobTitle: 'Programming Automation',
+			timeframe: '2017 ~ 2021',
+			link:
+				'https://codecanyon.net/item/vue-fullstack-automation-database-crud-generator-using-vuejs-nodejs-mongodb/24263858',
 			description:
-				'Developed and maintained an internal web app, adding and adapting features to the business needs. Built several APIs used by other dev teams, and integrated them with 3rd-party services.',
+				'Reduce your coding time by automating your javascript fullstack development process (Frontend + Backend).',
 			tags: [
 				{
 					color: 'primary',
-					text: 'JQuery'
+					text: 'Vue'
 				},
 				{
 					color: 'secondary',
-					text: '.NET'
+					text: 'MongoDB'
 				},
 				{
 					color: 'secondary',
-					text: 'SQL'
+					text: 'NodeJS'
 				}
 			]
 		}
+		// {
+		// 	id: 'sige',
+		// 	title: 'SIGE Cloud',
+		// 	jobTitle: 'Software Developer',
+		// 	timeframe: '2017 ~ 2019',
+		// 	description:
+		// 		'Built new mobile apps from scratch with Ionic, a simplified desktop ERP with Electron, and modernized the existing Web version by applying the Microfrontends approach.',
+		// 	tags: [
+		// 		{
+		// 			color: 'primary',
+		// 			text: 'Angular'
+		// 		},
+		// 		{
+		// 			color: 'primary',
+		// 			text: 'Ionic'
+		// 		},
+		// 		{
+		// 			color: 'primary',
+		// 			text: 'Electron'
+		// 		},
+		// 		{
+		// 			color: 'secondary',
+		// 			text: '.NET'
+		// 		},
+		// 		{
+		// 			color: 'secondary',
+		// 			text: 'MongoDB'
+		// 		}
+		// 	]
+		// },
+		// {
+		// 	id: 'promob',
+		// 	title: 'Promob',
+		// 	jobTitle: 'Software Developer',
+		// 	timeframe: '2014 ~ 2017',
+		// 	description:
+		// 		'Developed and maintained an internal web app, adding and adapting features to the business needs. Built several APIs used by other dev teams, and integrated them with 3rd-party services.',
+		// 	tags: [
+		// 		{
+		// 			color: 'primary',
+		// 			text: 'JQuery'
+		// 		},
+		// 		{
+		// 			color: 'secondary',
+		// 			text: '.NET'
+		// 		},
+		// 		{
+		// 			color: 'secondary',
+		// 			text: 'SQL'
+		// 		}
+		// 	]
+		// }
 	];
 </script>
 
 <section id="experience">
 	<Section
 		align="right"
-		title="Work Experience"
-		description="Over the past {yearsOfExperience}+ years, I've worked on a lot of cool projects."
+		title="Envato Projects"
+		description="Projects available to purchase on Envato Marketplace."
 		buttonUrl="/resume"
 		buttonColor="secondary"
 	>
@@ -136,6 +136,11 @@
 						<div class="text justify">
 							{entry.description}
 						</div>
+						<br />
+						<p class="">
+							<a href={entry.link} target="_blank" class="button primary">Download</a>
+						</p>
+						<br />
 					</div>
 					<div slot="footer">
 						<div class="tags">
