@@ -21,15 +21,15 @@
 			<ProjectsGrid>
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="personal-website" alt="Personal Website" />
+						<Image path="projects" filename="svelte-commerce" alt="Svelte Commerce" />
 					</div>
 					<div slot="content">
 						<div class="title">
-							Personal Website
+							Svelte Commerce
 							<div class="links">
 								<a
 									class="text-secondary"
-									href="https://github.com/itswadesh/swadesh.github.io"
+									href="https://github.com/itswadesh/svelte-commerce"
 									target="_blank"
 									rel="noopener"
 									title="Open project on GitHub"
@@ -39,14 +39,13 @@
 							</div>
 						</div>
 						<div class="text">
-							The website you’re seeing right now. Designed to be pretty, simple, and lightweight.
-
-							<a
+							Svelte Powered enterprise grade eCommerce Storefront.
+							<!-- <a
 								class="project-post-button button secondary-light transparent"
 								href="/blog-development-sveltekit"
 							>
 								Read blog post
-							</a>
+							</a> -->
 						</div>
 					</div>
 					<div slot="footer">
@@ -59,15 +58,15 @@
 
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="pocket-companion" alt="Pocket Companion" />
+						<Image path="projects" filename="foodfire" alt="Foodfire" />
 					</div>
 					<div slot="content">
 						<div class="title">
-							Pocket Companion
+							Foodfire
 							<div class="links">
 								<a
 									class="text-secondary"
-									href="https://github.com/itswadesh/acnh-pocket-companion"
+									href="https://github.com/itswadesh/foodfire"
 									target="_blank"
 									rel="noopener"
 									title="Open project on GitHub"
@@ -77,7 +76,7 @@
 
 								<a
 									class="text-secondary"
-									href="https://pocketcompanion.swadesh.github.io/"
+									href="https://foodfire.info/"
 									target="_blank"
 									rel="noopener"
 									title="Open site"
@@ -87,21 +86,20 @@
 							</div>
 						</div>
 						<div class="text">
-							A companion app for Animal Crossing New Horizons. Manage your island, tasks and
-							Critterpedia with this handy web app.
+							A light weight food commerce webapp made using flutter and vue
 
-							<a
+							<!-- <a
 								class="project-post-button button secondary-light transparent"
 								href="/ionic-animal-crossing-companion"
 							>
 								Read blog post
-							</a>
+							</a> -->
 						</div>
 					</div>
 					<div slot="footer">
 						<div class="tags">
-							<Tag>Angular</Tag>
-							<Tag>Ionic</Tag>
+							<Tag>Vue</Tag>
+							<Tag>Firebase</Tag>
 							<Tag color="secondary">Open Source</Tag>
 						</div>
 					</div>
@@ -109,15 +107,15 @@
 
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="gestek" alt="Gestek" />
+						<Image path="projects" filename="tablez" alt="tablez" />
 					</div>
 					<div slot="content">
 						<div class="title">
-							Gestek
+							Tablez
 							<div class="links">
 								<a
 									class="text-secondary"
-									href="https://gestek.com.br/"
+									href="https://tablez.com/"
 									target="_blank"
 									rel="noopener"
 									title="Open site"
@@ -127,9 +125,8 @@
 							</div>
 						</div>
 						<div class="text">
-							A web app for managing Beauty Clinics, supporting the entire day-to-day operation,
-							with built-in CRM, ERP and beauty-clinic specific features. I worked on this project
-							as the lead front-end developer for over a year.
+							Complete ecommerce tech stack built from scratch for the commerce giant Lulu
+							International
 						</div>
 					</div>
 					<div slot="footer">
