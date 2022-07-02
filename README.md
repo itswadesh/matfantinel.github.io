@@ -1,10 +1,10 @@
-# swadesh.github.io / swadesh.github.io
+# swadesh.vercel.app
 
 This is my own personal website, built with SvelteKit. It also holds my own personal blog.
 
 
 <p align="center">
-    <img src="static/images/projects/personal-website-transparent.png" alt="Screenshot" />
+    <img src="static/images/projects/svelte-commerce.png" alt="Screenshot" />
 </p>
 
 
