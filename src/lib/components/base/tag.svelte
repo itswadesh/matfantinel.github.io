@@ -3,11 +3,12 @@
 </script>
 
 <div class="tag {color}">
-  <slot />
+	<slot />
 </div>
 
 <style lang="scss">
 	.tag {
+		text-transform: capitalize;
 		display: flex;
 		align-items: center;
 		justify-content: center;
