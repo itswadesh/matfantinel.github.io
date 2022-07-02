@@ -133,7 +133,7 @@
 						<div class="tags">
 							<Tag>Vue</Tag>
 							<Tag>PWA</Tag>
-							<Tag color="secondary">NodeJs</Tag>
+							<Tag color="secondary">Elastic Search</Tag>
 							<Tag color="secondary">MongoDB</Tag>
 							<Tag color="secondary">Flutter</Tag>
 						</div>
@@ -265,7 +265,7 @@
 					<div slot="footer">
 						<div class="tags">
 							<Tag>Vue</Tag>
-							<Tag>Node</Tag>
+							<Tag>Elastic Search</Tag>
 							<Tag color="secondary">Flutter</Tag>
 							<Tag color="secondary">Mongo</Tag>
 						</div>
@@ -309,6 +309,7 @@
 						<div class="tags">
 							<Tag>Sveltekit</Tag>
 							<Tag>Node</Tag>
+							<Tag>Elastic Search</Tag>
 							<Tag color="secondary">Flutter</Tag>
 							<Tag color="secondary">Mongo</Tag>
 						</div>
