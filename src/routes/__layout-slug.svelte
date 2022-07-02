@@ -31,8 +31,19 @@
 	import Section from '$lib/components/layout/section.svelte';
 	import { keywords, siteBaseUrl, title } from '$lib/meta';
 	import Lazyimage from '$lib/components/base/lazyimage.svelte';
+	import { onMount } from 'svelte';
 
 	export let post = {};
+	let relatedPosts;
+	onMount(async () => {
+		const url = `/posts.json`;
+		const res = await fetch(url);
+		if (res.ok) {
+			relatedPosts = await res.json();
+		} else {
+			relatedPosts = [];
+		}
+	});
 </script>
 
 <svelte:head>
@@ -75,7 +86,7 @@
 				</div>
 			</article>
 
-			{#if post?.relatedPosts?.length > 0}
+			{#if relatedPosts?.length > 0}
 				<div class="related-posts container">
 					<Section
 						title="Related posts"
@@ -83,7 +94,7 @@
 						align="top"
 					>
 						<ThreeByThreeGrid>
-							{#each post.relatedPosts as rel}
+							{#each relatedPosts as rel}
 								<BlogPostCard post={rel} />
 							{/each}
 						</ThreeByThreeGrid>
