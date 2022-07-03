@@ -28,134 +28,24 @@
 	import UseCases from '$lib/components/home/use-cases.svelte';
 
 	export let posts;
-	let useCases = [
-		'Use Case 1 - Create a Sporting Goods Multi Vendor Marketplace',
-		'Use Case 2 - Create Toys and Baby Products Multi-Store Ecommerce Site',
-		'Use Case 3 - Create a Fashion Website with Multi-Store Ecommerce Set Up',
-		'Use Case 4 - Create Multi-Store Ecommerce Website to Sell Jewelery',
-		'Use Case 5 - Create Electronics and Gadgets Multi-Store Ecommerce Website',
-		'Use Case 6 - Create a Multi-Product Online Marketplace Based on User Groups',
-		'Use Case 7 - Create Sweets & Confectionery Multi Vendor Marketplace',
-		'Use Case 8 - Create Food Delivery Marketplace',
-		'Use Case 9 - Create Service Aggregator Marketplaces',
-		'Use Case 10 - Create Online Grocery Marketplace',
-		'Use Case 11 - Create A Fashion Marketplace',
-		'Use Case 12 - Create A Furniture Marketplace',
-		'Use Case 13 - Create A Cosmetics Marketplace',
-		'Use Case 14 - Create An Art And Handicrafts Marketplace',
-		'Use Case 15 - Create An Online Marketplace For Books',
-		'Use Case 16 - Create An FMCG Multi Vendor Marketplace',
-		'Use Case 17 - Create A Horizontal Multi Vendor Marketplace',
-		'Use Case 18 - Create A Vertical Multi Vendor Marketplace',
-		'Use Case 19 - Create A Pharmacy Multi Vendor Marketplace',
-		'Use Case 20 - Create A Glasses & Eyewear Multi Vendor Marketplace',
-		'Use Case 21 - Create A Diagnostics Multi Vendor Marketplace',
-		'Use Case 22 - Build An Online Gift And Flowers Marketplace',
-		'Use Case 23 - Build Online T Shirt Multi Vendor Marketplace',
-		'Use Case 24 - Create Gym Equipment Multi Vendor Marketplace',
-		'Use Case 25 - Build An Online Office Supplies Marketplace',
-		'Use Case 26 - Create Kitchen & Home Appliances Multi Vendor Marketplace',
-		'Use Case 27 - Create Music Instruments Multi Vendor Marketplace',
-		'Use Case 28 - Create Inverter And Batteries Multi Vendor Marketplace',
-		'Use Case 29 - Build Pet Products Online Multi Vendor Marketplace',
-		'Use Case 30 - Build An Online Hobby And Craft Material Marketplace',
-		'Use Case 31 - Create Industrial Goods Multi Vendor Marketplace',
-		'Use Case 32 - Create Solar Products Multi Vendor Marketplace',
-		'Use Case 33 - Create A Paints & Home Painting Multi Vendor Marketplace',
-		'Use Case 34 - Create A Home Decor Multi Vendor Marketplace',
-		'Use Case 35 - Create An Online School Supplies Marketplace',
-		'Use Case 36 - Build An Online Merchandise Marketplace',
-		'Use Case 37 - Create A Saree & Lehenga Multi Vendor Marketplace',
-		'Use Case 38 - Create A Building Material Multi Vendor Marketplace',
-		'Use Case 39 - Build An Online Organic Products Marketplace',
-		'Use Case 40 - Create A FMEG Multi Vendor Marketplace',
-		'Use Case 41 - Build An Online Ayurvedic Products Marketplace',
-		'Use Case 42 - Create An Auto Parts Multi Vendor Marketplace',
-		'Use Case 43 - Create A Maternity Wear Multi Vendor Marketplace',
-		'Use Case 44 - Create An Agriculture Machinery Multi Vendor Marketplace',
-		'Use Case 45 - Build An Auto Parts Store Powered With StoreHippo B2B Ecommerce',
-		'Use Case 46 - Build An Online Grocery Store Powered With Headless Commerce',
-		'Use Case 47 - Build An Online Fashion Store Powered With Headless Commerce',
-		'Use Case 48 - Create An Omnichannel FMCG Store With Headless Commerce',
-		'Use Case 49 - Create An Online T Shirt Store Powered With Headless Commerce',
-		'Use Case 50 - Build An Industrial Goods Wholesale Online Store',
-		'Use Case 51 - Create An Online Clothes Store Powered With Headless Commerce',
-		'Use Case 52 - Build An FMEG Wholesale Online Store',
-		'Use Case 53 - Build An Makeup And Cosmetics Store Powered With Headless Commerce',
-		'Use Case 54 - Build A Medicine And Pharmacy Wholesale Online Store',
-		'Use Case 55 - Create An Online Shoes Store Powered With Headless Commerce',
-		'Use Case 56 - Build An Ayurveda And Herbal Products Wholesale Online Store',
-		'Use Case 57 - Build An Omnichannel Gadget And Mobile Phone Store',
-		'Use Case 58 - Build A Solar Products Wholesale Online Store',
-		'Use Case 59 - Build An Omnichannel Organic Products Store',
-		'Use Case 60 - Create A Building Materials Wholesale Online Store',
-		'Use Case 61 - Build A Custom T Shirt Wholesale Online Store',
-		'Use Case 62 - Build A Food And Beverages Wholesale Online Store',
-		'Use Case 63 - Create An Omnichannel Milk And Dairy Store With Headless Commerce',
-		'Use Case 64 - Build An Apparel And Garments Wholesale Online Store',
-		'Use Case 65 - Create An Omnichannel Agritech Store With Headless Commerce',
-		'Use Case 66 - Build A Gems And Jewelry Wholesale Online Store',
-		'Use Case 67 - Build An Omnichannel Edutech Portal',
-		'Use Case 68 - Build A Handicrafts Wholesale Online Store',
-		'Use Case 69 - Build A Furniture Wholesale Online Store',
-		'Use Case 70 - Build An Omnichannel Healthtech Portal',
-		'Use Case 71 - Build A Computers Wholesale Online Store',
-		'Use Case 72 - Build An Omnichannel Beauty And Wellness Products Store',
-		'Use Case 73 - Build An Omnichannel Cake And Bakery Products Store',
-		'Use Case 74 - Build A Sporting Goods Wholesale Online Store'
-	];
-	let industries = [
-		'Agriculture Machinery',
-		'Ayurvedic Products',
-		'Bakery Products',
-		'Building Materials',
-		'Custom T-shirt',
-		'E-learning',
-		'Earrings & Fashion Accessories',
-		'FMCG',
-		'Fruits & Vegetable',
-		'Furniture Store',
-		'Grocery',
-		'Gym & Fitness',
-		'Handicraft',
-		'Home Appliances',
-		'Home Decor',
-		'Home Services',
-		'Hospitality Services',
-		'Inverter & Battery',
-		'Jackets',
-		'Jewelry',
-		'Kids Shoes',
-		'Maternity Wear',
-		'Medical And Healthcare',
-		'Medicines',
-		'Merchandise',
-		'Milk & Dairy',
-		'Musical Instruments',
-		'NGO and Charity',
-		'Office Supplies',
-		'Organic Products',
-		'Pet Products',
-		'Saree & Lehenga',
-		'Security systems',
-		'Shapewear',
-		'Solar Products',
-		'Sporting Goods',
-		'T shirt',
-		'Travel Accessories',
-		'Watches'
-	];
 </script>
 
 <div class="container">
 	<Hero />
 	<About />
 	<WhatCanIBuild />
-	<br />
+
+	<div style="display:flex; justify-content:space-between;">
+		<a href="/ecommerce-business-use-cases" class="button secondary" style="margin-right:1rem;">
+			Use Cases
+		</a>
+		<a href="/industries-i-serve" class="button primary"> Industries </a>
+	</div>
+	<!-- <br />
 	<UseCases title="ECOMMERCE BUSINESS USE CASES" data={useCases} />
 	<br />
-	<UseCases title="For Industries" data={industries} />
+	<UseCases title="For Industries" data={industries} /> -->
 	<Projects />
-	<RecentPosts {posts} />
 	<Experience />
+	<RecentPosts {posts} />
 </div>

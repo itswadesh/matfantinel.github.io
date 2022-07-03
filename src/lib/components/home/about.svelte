@@ -15,7 +15,7 @@
 		<p>
 			15+ years of experience in web development. <br />
 			8+ years of experience in ecommerce development. <br />
-			6+ years of experience in software automation. <br />
+			<!-- 6+ years of experience in software automation. <br /> -->
 		</p>
 	</div>
 	<div class="avatar">

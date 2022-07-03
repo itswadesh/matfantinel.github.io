@@ -14,7 +14,7 @@
 </script>
 
 <section id="projects">
-	<h1>{title}</h1>
+	<h1 class="title">{title}</h1>
 	<Card>
 		<div slot="content">
 			<div class="tags">
