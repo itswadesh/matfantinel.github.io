@@ -7,7 +7,7 @@
 <section id="hero">
 	<h1 class="hello">Hello, I'm Swadesh!</h1>
 	<p class="intro">
-		<span class="left">I love to automate business process,</span>
+		<span class="left">I love to automate business process</span>
 		<span class="right">and have a passion for technologies.</span>
 	</p>
 	<div class="ctas">
