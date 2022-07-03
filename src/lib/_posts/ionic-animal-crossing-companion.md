@@ -18,7 +18,7 @@ In the meantime, I was re-discovering [Ionic](https://ionicframework.com/) and w
 
 This post illustrates my experience developing it. It is not a tutorial or an in-depth guide. It's just meant to describe my experience, what I learned and any bumps in the way. In any case, the [source code is available on GitHub](https://github.com/itswadesh/acnh-pocket-companion) for all to see and modify. If it ends up helping anyone else in the way, even better!
 
-[You can check out the finalized app here](https://pocketcompanion.swadesh.github.io).
+[You can check out the finalized app here](https://pocketcompanion.itswadesh.com).
 
 ## Creating the app
 
@@ -244,6 +244,6 @@ To host my PWA, I decided to use [Netlify](https://netlify.com). The publishing 
 
 Developing this definitely took me a while - but that's because time's been quite scarce for me. Most of the development time was spent learning NgRx, which was definitely the most complex part of this application. It also took me a while to find a good IndexedDB wrapper before I settled on Dexie. The rest was quite straightforward - the app logic is simple, and what took the longest was making the app pretty and the animations smooth. 
 
-I think the result is quite good - definitely not professional, but more than enough for a hobby app. I learned a lot working on it and would definitely do it again. In case you missed it, [here's another link to check out the result](https://pocketcompanion.swadesh.github.io), and its [source code](https://github.com/itswadesh/acnh-pocket-companion).
+I think the result is quite good - definitely not professional, but more than enough for a hobby app. I learned a lot working on it and would definitely do it again. In case you missed it, [here's another link to check out the result](https://pocketcompanion.itswadesh.com), and its [source code](https://github.com/itswadesh/acnh-pocket-companion).
 
 Thanks for reading!

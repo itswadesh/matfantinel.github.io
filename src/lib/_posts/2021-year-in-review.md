@@ -68,7 +68,7 @@ I have a clear favorite here, but I feel that Svelte hits the sweet spot in many
 
 I didn't work on many personal projects this year, as I was already learning a lot on my day job. I did, however, <MarkerHighlight>completely rewrite my website!</MarkerHighlight>
 
-I really liked the previous one, but I wanted to change some things about it and use something more flexible than Jekyll. So I completely redesigned it using Figma - while retaining some design elements from before - and rewrote it with SvelteKit. [I wrote a blog post talking more about the experience](https://swadesh.github.io/blog-development-sveltekit/), which also became my most-read post of all time. Nice!
+I really liked the previous one, but I wanted to change some things about it and use something more flexible than Jekyll. So I completely redesigned it using Figma - while retaining some design elements from before - and rewrote it with SvelteKit. [I wrote a blog post talking more about the experience](https://itswadesh.com/blog-development-sveltekit/), which also became my most-read post of all time. Nice!
 
 Speaking of blog posts, <SparklingHighlight>I doubled the amount of posts published compared to last year!</SparklingHighlight> Which means I wrote.... **4** (excluding this one). I wanted to write more, but compared to the 2 posts from last year, it's still an improvement, _right_?
 

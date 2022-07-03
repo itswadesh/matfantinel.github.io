@@ -29,7 +29,7 @@ You just have to add in your existing favicon image (for best results, a SVG or 
   figcaption="The customization options allow you to set different icons depending on device and OS, and even generate icons with background colors if needed."
 />
 
-At the bottom, you can even set up ways of avoiding caching issues, compression, and scaling algorithms (!). After all that, it will generate them all as set, give you a zip with all the files, and the HTML code to paste on your `<head>`. You can check the result on this very website (swadesh.github.io). The favicon should look fantastic on every device/browser combination.
+At the bottom, you can even set up ways of avoiding caching issues, compression, and scaling algorithms (!). After all that, it will generate them all as set, give you a zip with all the files, and the HTML code to paste on your `<head>`. You can check the result on this very website (itswadesh.com). The favicon should look fantastic on every device/browser combination.
 
 ## Manual Mode
 

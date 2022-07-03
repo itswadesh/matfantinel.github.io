@@ -32,7 +32,7 @@ Plausible is a small company from Europe that makes Plausible Analytics, a priva
 
 * It's open source;
 * It can be self-hosted in case you already have your own server;
-* It's intuitive: a quick glance through the dashboard and you're already able to understand everything that's in there. [Check out mine](https://plausible.io/swadesh.github.io);
+* It's intuitive: a quick glance through the dashboard and you're already able to understand everything that's in there. [Check out mine](https://plausible.io/itswadesh.com);
 * It's sustainable: their business model allows them to grow organically and [the project is already profitable](https://plausible.io/blog/bootstrapping-saas) without any kind of external funding (and [they have no plans of accepting it](https://twitter.com/PlausibleHQ/status/1282678251148763137));
 * They offer [ways of bypassing adblockers](https://plausible.io/docs/proxy/introduction);
 * It's simply a great product.

@@ -23,7 +23,7 @@ You can see that Android never allows the end of a scroll to be in a place betwe
 
 Until recently, you'd have to resort to JavaScript code to make a similar behavior on the web. But now, all you need is CSS, which makes things more performant, consistent and reliable! Browser support is already pretty good, with all major browser engines already supporting it fully. Check out browser support on [caniuse.com](https://caniuse.com/#feat=css-snappoints).
 
-I've recently added scroll snapping to my own website. You can check it out on the "Work Experience" section in the [Home page](https://swadesh.github.io). It's specially great on mobile!
+I've recently added scroll snapping to my own website. You can check it out on the "Work Experience" section in the [Home page](https://itswadesh.com). It's specially great on mobile!
 
 ## How?
 

@@ -27,7 +27,7 @@ npm manifest:
       "preview": "svelte-kit preview",
       "lint": "prettier --ignore-path .gitignore  --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
       "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
-      "postbuild": "svelte-sitemap --domain https://swadesh.github.io"
+      "postbuild": "svelte-sitemap --domain https://itswadesh.com"
     },
     "devDependencies": {
       "@contentful/rich-text-html-renderer": "^15.13.1",
