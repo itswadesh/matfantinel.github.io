@@ -46,7 +46,7 @@
 		'Use Case 42 - Create An Auto Parts Multi Vendor Marketplace',
 		'Use Case 43 - Create A Maternity Wear Multi Vendor Marketplace',
 		'Use Case 44 - Create An Agriculture Machinery Multi Vendor Marketplace',
-		'Use Case 45 - Build An Auto Parts Store Powered With StoreHippo B2B Ecommerce',
+		'Use Case 45 - Build An Auto Parts Store Powered With B2B Ecommerce',
 		'Use Case 46 - Build An Online Grocery Store Powered With Headless Commerce',
 		'Use Case 47 - Build An Online Fashion Store Powered With Headless Commerce',
 		'Use Case 48 - Create An Omnichannel FMCG Store With Headless Commerce',
