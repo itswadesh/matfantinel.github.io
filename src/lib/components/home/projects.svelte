@@ -14,8 +14,8 @@
 <section id="projects">
 	<Section
 		align="top"
-		title="Projects"
-		description="Following are some of the projects out of 800+. Technologies are varied and so are their purposes. Some of them are open source!"
+		title="Live Projects"
+		description="Some live projects out of 800+. Technologies are varied and so are their purposes. Some of them are open source!"
 	>
 		<OneByOneGrid>
 			<ProjectsGrid>
