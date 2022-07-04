@@ -45,7 +45,16 @@
 	<UseCases title="ECOMMERCE BUSINESS USE CASES" data={useCases} />
 	<br />
 	<UseCases title="For Industries" data={industries} /> -->
+	<br />
+	<br />
+	<br />
 	<Projects />
+	<br />
+	<br />
+	<br />
 	<Experience />
+	<br />
+	<br />
+	<br />
 	<RecentPosts {posts} />
 </div>

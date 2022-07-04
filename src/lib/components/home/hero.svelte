@@ -19,9 +19,9 @@
 			<BlogIcon />
 			Blog
 		</a>
-		<a id="experience-btn" href="#experience" class="button secondary-light">
+		<a id="experience-btn" href="#envato-projects" class="button secondary-light">
 			<ExperienceIcon />
-			Experience
+			EnvatoProjects
 		</a>
 	</div>
 </section>
