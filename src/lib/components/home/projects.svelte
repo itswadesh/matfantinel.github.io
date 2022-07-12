@@ -21,7 +21,7 @@
 			<ProjectsGrid>
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="svelte-commerce" alt="Svelte Commerce" />
+						<Image path="projects" filename="1" alt="Svelte Commerce" />
 					</div>
 					<div slot="content">
 						<div class="title">
@@ -58,7 +58,7 @@
 
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="foodfire" alt="Foodfire" />
+						<Image path="projects" filename="2" alt="Foodfire" />
 					</div>
 					<div slot="content">
 						<div class="title">
@@ -107,7 +107,7 @@
 
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="tablez" alt="tablez" />
+						<Image path="projects" filename="4" alt="tablez" />
 					</div>
 					<div slot="content">
 						<div class="title">
@@ -144,7 +144,7 @@
 			<ThreeByThreeGrid>
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="clicky" alt="clicky" />
+						<Image path="projects" filename="3" alt="clicky" />
 					</div>
 					<div slot="content">
 						<div class="title">
@@ -188,7 +188,7 @@
 
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="lrnr" alt="Lrnr" />
+						<Image path="projects" filename="5" alt="Lrnr" />
 					</div>
 					<div slot="content">
 						<div class="title">
@@ -230,7 +230,7 @@
 				</Card>
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="misiki" alt="Misiki" />
+						<Image path="projects" filename="6" alt="Misiki" />
 					</div>
 					<div slot="content">
 						<div class="title">
@@ -273,7 +273,7 @@
 				</Card>
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="atoz" alt="Atoz" />
+						<Image path="projects" filename="7" alt="Atoz" />
 					</div>
 					<div slot="content">
 						<div class="title">
@@ -317,7 +317,7 @@
 				</Card>
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="Frontendfun" alt="Frontendfun" />
+						<Image path="projects" filename="8" alt="Frontendfun" />
 					</div>
 					<div slot="content">
 						<div class="title">
@@ -358,7 +358,7 @@
 				</Card>
 				<Card>
 					<div slot="image">
-						<Image path="projects" filename="shopnx" alt="ShopNx" />
+						<Image path="projects" filename="9" alt="ShopNx" />
 					</div>
 					<div slot="content">
 						<div class="title">
