@@ -67,7 +67,7 @@
 		<main>
 			<article id="blog-post">
 				<div class="header">
-					<h1>{post.fields.title}</h1>
+					<h1>{post.fields?.title}</h1>
 					<div class="note">Published on {dateformat(post.date, 'UTC:dd mmmm yyyy')}</div>
 					<div class="note">{post.readingTime}</div>
 					<div class="tags">

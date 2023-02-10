@@ -21,6 +21,122 @@
 			<ProjectsGrid>
 				<Card>
 					<div slot="image">
+						<Image path="projects" filename="11" alt="Zapvi" />
+					</div>
+					<div slot="content">
+						<div class="title">
+							Zapvi
+							<div class="links">
+								<a
+									class="text-secondary"
+									href="https://github.com/itswadesh/svelte-commerce"
+									target="_blank"
+									rel="noopener"
+									title="Open project on GitHub"
+								>
+									<Github />
+								</a>
+							</div>
+						</div>
+						<div class="text">
+							Customized Mobile Covers India: Zapvi is the most beneficial customized mobile cover
+							printing online store at which it is easy to design custom phone cases
+							<!-- <a
+								class="project-post-button button secondary-light transparent"
+								href="/blog-development-sveltekit"
+							>
+								Read blog post
+							</a> -->
+						</div>
+					</div>
+					<div slot="footer">
+						<div class="tags">
+							<Tag>Svelte</Tag>
+							<Tag color="secondary">Open Source</Tag>
+						</div>
+					</div>
+				</Card>
+
+				<Card>
+					<div slot="image">
+						<Image path="projects" filename="12" alt="Zapvi" />
+					</div>
+					<div slot="content">
+						<div class="title">
+							Tesoro
+							<div class="links">
+								<a
+									class="text-secondary"
+									href="https://github.com/itswadesh/svelte-commerce"
+									target="_blank"
+									rel="noopener"
+									title="Open project on GitHub"
+								>
+									<Github />
+								</a>
+							</div>
+						</div>
+						<div class="text">
+							For their growing jewellery store, there was a requirement to up-lift the exising
+							ecommerce from wordpress (woocommerce) to a modern and more performant platform and
+							they choose Litekart. The page loading and browing time decreased by 10 times
+							resulting 3x increase in delightfull customers
+							<!-- <a
+								class="project-post-button button secondary-light transparent"
+								href="/blog-development-sveltekit"
+							>
+								Read blog post
+							</a> -->
+						</div>
+					</div>
+					<div slot="footer">
+						<div class="tags">
+							<Tag>Svelte</Tag>
+							<Tag color="secondary">Open Source</Tag>
+						</div>
+					</div>
+				</Card>
+
+				<Card>
+					<div slot="image">
+						<Image path="projects" filename="10" alt="Varni Jewels" />
+					</div>
+					<div slot="content">
+						<div class="title">
+							Varni Jewels
+							<div class="links">
+								<a
+									class="text-secondary"
+									href="https://github.com/itswadesh/svelte-commerce"
+									target="_blank"
+									rel="noopener"
+									title="Open project on GitHub"
+								>
+									<Github />
+								</a>
+							</div>
+						</div>
+						<div class="text">
+							Varni Jewels is your one stop destination for jewelry, custom orders, casting, loose
+							stones, engraving, and many other jewelry services.
+							<!-- <a
+								class="project-post-button button secondary-light transparent"
+								href="/blog-development-sveltekit"
+							>
+								Read blog post
+							</a> -->
+						</div>
+					</div>
+					<div slot="footer">
+						<div class="tags">
+							<Tag>Svelte</Tag>
+							<Tag color="secondary">Open Source</Tag>
+						</div>
+					</div>
+				</Card>
+
+				<Card>
+					<div slot="image">
 						<Image path="projects" filename="1" alt="Svelte Commerce" />
 					</div>
 					<div slot="content">
