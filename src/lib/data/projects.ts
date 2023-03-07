@@ -12,7 +12,7 @@ export default [
     description:
       'The website you’re seeing right now. Designed to be pretty, simple, and lightweight.',
     image: getSrcsetFromImport(PersonalWebsiteImage),
-    sourceCode: 'https://github.com/matfantinel/matfantinel.github.io',
+    sourceCode: 'https://github.com/itswadesh/swadesh.dev',
     blogPostLink: '/blog-development-sveltekit',
     tags: [{ label: 'Svelte' }, { label: 'Open Source', color: 'secondary' }]
   },
