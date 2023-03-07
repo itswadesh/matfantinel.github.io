@@ -1,20 +1,18 @@
-# swadesh.vercel.app
+# matfantinel.github.io / itswadesh.com
 
 This is my own personal website, built with SvelteKit. It also holds my own personal blog.
 
-
 <p align="center">
-    <img src="static/images/projects/svelte-commerce.png" alt="Screenshot" />
+    <img src="src/lib/images/projects/personal-website-transparent.png" alt="Screenshot" />
 </p>
-
 
 It was built with a few goals in mind:
 
-* Responsive design: the website looks and behaves well on screens of all sizes;
-* Fast: it only loads what's needed for it to work;
-* Adaptive: it supports dark mode from most operating systems by default (desktop and mobile);
-* Privacy-friendly: I don't need to know who you are and what you do. It uses [Plausible](https://plausible.io/) instead of Google Analytics;
-* Pretty: have a pleasant design that is both accessible and pleasing to the eye.
+- Responsive design: the website looks and behaves well on screens of all sizes;
+- Fast: it only loads what's needed for it to work;
+- Adaptive: it supports dark mode from most operating systems by default (desktop and mobile);
+- Privacy-friendly: I don't need to know who you are and what you do. It uses [Plausible](https://plausible.io/) instead of Google Analytics;
+- Pretty: have a pleasant design that is both accessible and pleasing to the eye.
 
 I achieved this with the help of SvelteKit. There is almost no JavaScript running, and it actually works with JS disabled! While JS is awesome, it's important to know when it's not needed.
 
@@ -31,14 +29,20 @@ npm install
 npm run dev
 ```
 
-The site should now be available at http://0.0.0.0:3000/ on your local machine, and your local machine's IP address on your network—great for testing on mobile OSes.
+The site should now be available at http://localhost:5173/ on your local machine, and your local machine's IP address on your network—great for testing on mobile OSes.
 
-# Optimizing images
+# Histoire / Storybook
 
-I've built an image-optimizer script called [image-transmutation](https://github.com/itswadesh/image-transmutation) that is used on this website. For now, you have to run it manually, while I don't push it to npm.
+I've used [Histoire](https://histoire.dev), a Vite-based Storybook alternative to be able to see and develop components in isolation. To open it, run `npm run story:dev`.
 
-On the image-transmutation project folder, run:
+# Images
 
-```shell
-node ./index.js --run --sourceFolder "{YOUR_PROJECT_FOLDER}/static/images" --targetFolder "{YOUR_PROJECT_FOLDER}/static/optimized-images" --inputFormats "jpg" --inputFormats "jpeg" --inputFormats "png" --outputFormats "webp" --outputFormats "avif" --outputFormats "png"
-```
+I use [vite-imagetools](https://github.com/JonasKruckenberg/imagetools) to automatically process images, generating webp, avif and png files for each one of them. Just by importing the images on a Svelte/Markdown file, Vite will automatically process those on build. I've created the `getSrcsetFromImport` function and the `SrcsetImage` component to make it easier to use.
+
+# Managing Posts
+
+All posts are Markdown files that are processed with [MDsveX](https://mdsvex.pngwn.io/) to allow using Svelte components inside them. In order to make it easier to manage posts, I highly recommend the [Front Matter VS Code extension](https://frontmatter.codes/), which gives you a nice CMS-like UI.
+
+# Hosting
+
+This site is hosted on [Vercel](https://vercel.com/), and uses SvelteKit's `adapter-auto` on build. It can also be generated as a static site, and hosted pretty much anywhere. To do that, simply replace `adapter-auto` with `adapter-static` on `svelte.config.js` and `package.json` (and re-run `npm install`).
