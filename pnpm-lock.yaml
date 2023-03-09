@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@contentful/rich-text-html-renderer': ^16.0.2
   '@fontsource/barlow': ^4.5.9
   '@fontsource/ubuntu-mono': ^4.5.11
   '@fontsource/youngserif': ^4.5.2
@@ -34,6 +35,7 @@ dependencies:
   '@fontsource/youngserif': 4.5.2
 
 devDependencies:
+  '@contentful/rich-text-html-renderer': 16.0.2
   '@histoire/plugin-svelte': 0.12.4_vsjgxpy5uhropnowzu2afdoyvy
   '@sveltejs/adapter-auto': 1.0.3_@sveltejs+kit@1.10.0
   '@sveltejs/kit': 1.10.0_svelte@3.55.1+vite@4.1.4
@@ -114,6 +116,19 @@ packages:
       '@codemirror/state': 6.2.0
       style-mod: 4.0.0
       w3c-keyname: 2.2.6
+    dev: true
+
+  /@contentful/rich-text-html-renderer/16.0.2:
+    resolution: {integrity: sha512-0flmxVixlNk5PMiHXAlABUJ2uURsWxOjbC6ZHhqpEVHU03kHMoIKfDdo6CRZc0S0rMWMO3c14Ei91E97T06T8w==}
+    engines: {node: '>=6.0.0'}
+    dependencies:
+      '@contentful/rich-text-types': 16.0.2
+      escape-html: 1.0.3
+    dev: true
+
+  /@contentful/rich-text-types/16.0.2:
+    resolution: {integrity: sha512-ovbmCKQjlyGek4NuABoqDesC3FBV3e5jPMMdtT2mpOy9ia31MKO0NSFMRGZu7Q+veZzmDMja8S1i/XeFCUT9Pw==}
+    engines: {node: '>=6.0.0'}
     dev: true
 
   /@esbuild/android-arm/0.16.17:

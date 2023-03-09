@@ -1,17 +1,17 @@
 <script lang="ts">
 	import Card from '$lib/components/atoms/Card.svelte';
 	import Tag from '$lib/components/atoms/Tag.svelte';
-	import SrcsetImage from '$lib/components/atoms/SrcsetImage.svelte';
-	import type { Srcset } from '$lib/utils/types';
+	import Lazyimage from '../base/lazyimage.svelte';
 
 	export let categories: string[] | undefined = undefined;
 	export let title: string;
-	export let coverImage: Srcset | undefined = undefined;
+	export let coverImage: string | undefined = undefined;
 	export let excerpt: string;
 	export let slug: string;
 	export let tags: string[] | undefined;
 
 	export let showImage = true;
+
 </script>
 
 <Card
@@ -19,12 +19,8 @@
 	target="_self"
 	additionalClass="blog-post-card {(!showImage || !coverImage) && 'no-image'}"
 >
-	<SrcsetImage
-		hidden={showImage && coverImage}
-		srcset={coverImage || { png: '', webp: '', avif: '' }}
-		slot="image"
-		alt="Cover image of this blog post"
-	/>
+	<Lazyimage src={coverImage} alt="Cover Image" />
+
 	<div class="content" slot="content">
 		<p class="title">
 			{title}
