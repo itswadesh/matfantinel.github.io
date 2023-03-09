@@ -9,7 +9,7 @@
 
 <div class="socials">
 	<a
-		href="https://t.me/Matt_Fantinel"
+		href="https://t.me/itswadesh"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Say Hi on Telegram"
@@ -17,15 +17,15 @@
 		<TelegramIcon />
 	</a>
 	<a
-		href="https://bolha.us/@fantinel"
+		href="https://www.twitter.com/@itswadesh"
 		target="_blank"
 		rel="me noreferrer"
-		title="Say Hi on Mastodon"
+		title="Say Hi on Twitter"
 	>
 		<MastodonIcon />
 	</a>
 	<a
-		href="https://github.com/MatFantinel"
+		href="https://github.com/itswadesh"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="See my GitHub profile"
@@ -33,7 +33,7 @@
 		<GitHubIcon />
 	</a>
 	<a
-		href="https://www.linkedin.com/in/matheus-fantinel/"
+		href="https://www.linkedin.com/in/itswadesh/"
 		target="_blank"
 		rel="noopener noreferrer"
 		title="Connect on LinkedIn"

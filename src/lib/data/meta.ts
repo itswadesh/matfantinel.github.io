@@ -6,7 +6,7 @@ export const siteBaseUrl = 'https://itswadesh.com';
 
 export const keywords = [
 	'Matheus Fantinel',
-	'Matt Fantinel',
+	'Swadesh Behera',
 	'Web Development',
 	'Software Engineer',
 	'Open Source'
@@ -15,6 +15,6 @@ export const keywords = [
 export const description =
 	"I'm a developer aiming to build things that spark joy. I build fun stuff on the web, and sometimes write about it.";
 
-export const title = 'Matt Fantinel';
+export const title = 'Swadesh Behera';
 
 export const image = `${siteBaseUrl}/images/site-preview.png`;

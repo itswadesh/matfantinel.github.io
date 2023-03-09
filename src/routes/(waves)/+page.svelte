@@ -30,9 +30,9 @@
 <div class="container">
 	<Hero />
 	<About />
-	{#if posts && posts.length > 0}
+	<!-- {#if posts && posts.length > 0}
 		<RecentPosts {posts} />
-	{/if}
+	{/if} -->
 	<Projects {projects} />
 	<Experience {yearsOfExperience} entries={experienceEntries} />
 </div>

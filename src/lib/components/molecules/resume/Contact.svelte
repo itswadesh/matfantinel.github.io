@@ -25,7 +25,7 @@
 	</li>
 	<li class="location">
 		<span class="icon"><PinIcon /></span>
-		<span>Caxias do Sul, RS, Brazil</span>
+		<span>Odisha, India</span>
 	</li>
 	<li class="email">
 		<span class="icon"><EmailIcon /></span>
