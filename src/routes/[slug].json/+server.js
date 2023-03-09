@@ -1,7 +1,9 @@
+
+// @migration task: Check imports
 import { CONTENTFUL_URI, VITE_CONTENTFUL_ACCESS_TOKEN } from '$lib/config';
 import readingTime from 'reading-time';
 
-export async function get({ url }) {
+export async function GET({ url }) {
 	const id = url.searchParams.get('id');
 	const post = await (
 		await fetch(`${CONTENTFUL_URI}/entries/${id}?access_token=${VITE_CONTENTFUL_ACCESS_TOKEN}`)
@@ -11,13 +13,8 @@ export async function get({ url }) {
 	}
 
 	if (post) {
-		return {
-			status: 200,
-			body: JSON.stringify(post)
-		};
+		return new Response(JSON.stringify(post));
 	}
 
-	return {
-		status: 404
-	};
+	return new Response(undefined, { status: 404 });
 }

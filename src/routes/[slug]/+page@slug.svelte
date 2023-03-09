@@ -1,25 +1,8 @@
-<script context="module">
-	export async function load({ fetch, url }) {
-		const id = url.searchParams.get('id');
-		const url1 = `/index.json?id=${id}`;
-		const res = await fetch(url1);
-		if (res.ok) {
-			return {
-				props: {
-					post: await res.json()
-				}
-			};
-		} else {
-			return {
-				props: {
-					error: new Error(`Could not load ${url}`)
-				}
-			};
-		}
-	}
-</script>
+
 
 <script>
+	throw new Error("@migration task: Add data prop (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292707)");
+
 	import CodeBlock from '$lib/components/blog/code-block.svelte';
 	import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 

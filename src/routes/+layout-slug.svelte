@@ -1,23 +1,4 @@
-<script context="module">
-	export async function load({ fetch, url }) {
-		const id = url.searchParams.get('id');
-		const url1 = `/index.json?id=${id}`;
-		const res = await fetch(url1);
-		if (res.ok) {
-			return {
-				props: {
-					post: await res.json()
-				}
-			};
-		} else {
-			return {
-				props: {
-					error: new Error(`Could not load ${url}`)
-				}
-			};
-		}
-	}
-</script>
+
 
 <script>
 	import './../app.scss';

@@ -1,12 +1,18 @@
+import { json } from '@sveltejs/kit';
 import { description, siteBaseUrl, title } from '$lib/meta';
 import posts from '$lib/posts';
 
-export async function get() {
+export async function GET() {
 	const body = xml(posts);
 	const headers = {
 		'Cache-Control': 'max-age=0, s-maxage=3600',
 		'Content-Type': 'application/xml'
 	};
+	throw new Error("@migration task: Migrate this return statement (https://github.com/sveltejs/kit/discussions/5774#discussioncomment-3292701)");
+	// Suggestion (check for correctness before using):
+	// return json(body, {
+	// 	headers: headers
+	// });
 	return {
 		headers,
 		body
